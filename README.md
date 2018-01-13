@@ -11,5 +11,8 @@ Betaflight;
 INav;
 and maybe some forkes of them
 
+# How you can install this in Node Red
+Therefore you use the instruction for installing custom Nodes form Node Red:
+https://nodered.org/docs/creating-nodes/packaging
 
 
