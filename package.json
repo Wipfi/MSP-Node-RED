@@ -1,0 +1,36 @@
+{
+  "name": "MSPNode",
+  "version": "1.0.1",
+  "description": "MSP Protocol Node",
+  
+    "dependencies": {
+     "serialport"   : "^6.0.4"
+    
+    
+  },
+  
+    "node-red" :{
+        "nodes":{
+            "mspport":"MspPortNode.js"
+        }
+    },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wipfi/MSPNode.git"
+  },
+  "keywords": [
+	"cleanflight",
+    "msp",
+    "Node",
+	"betaflight",
+	"inav",
+	"multiwii",
+    "RED"
+  ],
+  "author": "Hans-Peter Wipfler",
+  "bugs": {
+    "url": "https://github.com/Wipfi/MSPNode/issues"
+  },
+  "homepage": "https://github.com/Wipfi/MSPNode#readme"
+} 

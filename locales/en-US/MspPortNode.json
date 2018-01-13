@@ -1,0 +1,54 @@
+{
+    "serial": {
+        "label": {
+            "serialport": "Serial Port",
+            "settings": "Settings",
+            "baudrate": "Baud Rate",
+            "databits": "Data Bits",
+            "parity": "Parity",
+            "stopbits": "Stop Bits",
+            "input": "Input",
+            "split": "Split input",
+            "deliver": "and deliver",
+            "output": "Output",
+            "serial": "MspPort",
+            "none": "none"
+        },
+        "placeholder": {
+            "serialport": "for example: /dev/ttyUSB0/"
+        },
+        "parity": {
+            "none": "None",
+            "even": "Even",
+            "mark": "Mark",
+            "odd": "Odd",
+            "space": "Space"
+        },
+        "split": {
+            "character": "on the character",
+            "timeout": "after a timeout of",
+            "lengths": "into fixed lengths of",
+			"msp":"Take 1 Multiwii Serial Protocol Message"
+        },
+        "output": {
+            "ascii": "ascii strings",
+            "binary": "binary buffers",
+			"msp": "output in Multiwii Serial Protocol"
+        },
+        "addsplit": "add split character to output messages",
+        "tip": {
+            "split": "Tip: the \"Split on\" character is used to split the input into separate messages. It can also be added to every message sent out to the serial port.",
+            "timeout": "Tip: In timeout mode timeout starts from arrival of first character.",
+			"msp":"Use MSP protocol on FC"
+        },
+        "onopen": "serial port __port__ opened at __baud__ baud __config__",
+        "errors": {
+            "missing-conf": "missing serial config",
+            "serial-port": "serial port",
+            "error": "serial port __port__ error: __error__",
+            "unexpected-close": "serial port __port__ closed unexpectedly",
+            "disconnected": "serial port __port__ disconnected",
+            "closed": "serial port __port__ closed"
+        }
+    }
+}
